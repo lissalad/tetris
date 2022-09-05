@@ -2,6 +2,7 @@ import './App.css';
 import Controls from './components/Controls';
 import GridBoard from './components/GridBoard';
 import GridSquare from './components/GridSquare';
+import MessagePopup from './components/MessagePopup';
 import NextBlock from './components/NextBlock';
 import ScoreBoard from './components/ScoreBoard';
 
@@ -15,6 +16,7 @@ function App() {
       <NextBlock />
       <ScoreBoard />
       <Controls />
+      <MessagePopup />
     </div>
   );
 }
